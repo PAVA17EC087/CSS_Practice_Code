@@ -1,0 +1,31 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80");
+    
+}
+.container{
+    display:flex;
+    background-color:yellow;
+    flex-wrap: wrap;
+    
+}
+.a{
+    min-width: 350px;
+    height: 150px;
+    background-color: blue;
+    flex-grow:1;
+}
+.b{
+    min-width: 350px;
+    height: 150px;
+    background-color: red;
+    flex-grow: 1;
+    
+}
+.c{
+    min-width: 350px;
+    height: 150px;
+    background-color: green;
+    flex-grow: 1;
+}
+
+ 
